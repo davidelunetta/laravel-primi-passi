@@ -8,5 +8,7 @@
 </head>
 <body>
     <h1>hello world</h1>
+    <h2>Ciao, {{ $dati['nome'] }} {{ $dati['cognome'] }}!</h2>
+    <p>Hai {{ $dati['età'] }} anni.</p>
 </body>
 </html>
